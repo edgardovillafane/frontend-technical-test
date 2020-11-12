@@ -8,17 +8,17 @@
 # Consultas técnicas
 
 0. Cuál  es tu película favorita?
-1. Como mejorarías la siguiente sintaxis.
+1. Como mejorarías la siguiente sintaxis ().
     
     
     const responseApi = await this.apiService.get();
 
     if (responseApi) {
       if (responseApi.data && responseApi.data.name) {
-        return 'InAtlas';
+        return responseApi.data.name';
+      } else {
+        return 'success';
       }
-
-      return 'success';
     } else {
       return 'error';
     }
