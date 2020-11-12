@@ -2,41 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c43d9930-0655-4519-a7e1-3f968341e6e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/frontend-technical-test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/browserslist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/src/app/app.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/src/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inatlas-fe-test/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inatlas-fe-test/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/inatlas-fe-test/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +33,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605165443421</updated>
-      <workItem from="1605165444585" duration="5441000" />
+      <workItem from="1605165444585" duration="6311000" />
     </task>
     <servers />
   </component>
