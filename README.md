@@ -10,7 +10,7 @@
 0. Cuál  es tu película favorita?
 1. Como mejorarías la siguiente sintaxis ().
     
-    
+```javascript 
     const responseApi = await this.apiService.get();
 
     if (responseApi) {
@@ -22,10 +22,10 @@
     } else {
       return 'error';
     }
-     
+```
 2. Como eliminar los siguientes statements (IFs).
 
-
+```javascript
     if (value === 'Vader') {
        return 'vader';
      } else if (value === 'Luke') {
@@ -37,7 +37,7 @@
      } else {
        return 'chewee';
      }
-
+```
 3. Que prefieres: mar | montaña | crucero | resort
 
 # Prueba técnica
