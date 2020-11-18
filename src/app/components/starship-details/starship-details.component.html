@@ -1,0 +1,47 @@
+<div *ngIf="starship; else elseBlock">
+  <div class="modal-header">
+    <h4 class="modal-title">{{ starship.name }}</h4>
+  </div>
+  <div class="modal-body">
+    <table class="table table-striped">
+      <tbody>
+        <tr>
+          <td><b>Model:</b> {{ starship.model }}</td>
+          <td><b>Manufacturer:</b> {{ starship.manufacturer }}</td>
+        </tr>
+        <tr>
+          <td><b>Cost in credits:</b> {{ starship.cost_in_credits }}</td>
+          <td><b>Length:</b> {{ starship.length }}</td>
+        </tr>
+        <tr>
+          <td>
+            <b>Max Atmosphering speed:</b> {{ starship.max_atmosphering_speed }}
+          </td>
+          <td><b>Crew:</b> {{ starship.crew }}</td>
+        </tr>
+        <tr>
+          <td><b>Passengers:</b> {{ starship.passengers }}</td>
+          <td><b>Cargo Capacity:</b> {{ starship.cargo_capacity }}</td>
+        </tr>
+        <tr>
+          <td><b>Consumables:</b> {{ starship.consumables }}</td>
+          <td><b>Hyperdrive rating:</b> {{ starship.hyperdrive_rating }}</td>
+        </tr>
+        <tr>
+          <td><b>MGLT:</b> {{ starship.MGLT }}</td>
+          <td><b>Starship Class:</b> {{ starship.starship_class }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="modal-footer">
+    <button
+      type="button"
+      class="btn btn-outline-dark"
+      (click)="activeModal.close()"
+    >
+      Close
+    </button>
+  </div>
+</div>
+<ng-template #elseBlock><div style="height: 385px"></div></ng-template>

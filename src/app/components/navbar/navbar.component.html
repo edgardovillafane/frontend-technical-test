@@ -1,0 +1,12 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li [ngClass]="list == 'starships' ? 'nav-item active' : 'nav-item'">
+        <a class="nav-link" (click)="goToStarships(1)">Starships</a>
+      </li>
+      <li [ngClass]="list == 'pilots' ? 'nav-item active' : 'nav-item'">
+        <a class="nav-link" (click)="goToPilots(1)">Pilots</a>
+      </li>
+    </ul>
+  </div>
+</nav>

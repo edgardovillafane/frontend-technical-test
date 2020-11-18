@@ -1,0 +1,11 @@
+<nav>
+  <ul class="pagination pagination-sm">
+    <li class="page-item disabled">Go to page&nbsp;</li>
+    <li
+      *ngFor="let item of numPages(qtyPages); let i = index"
+      [ngClass]="currentPage == i + 1 ? 'page-item active' : 'page-item'"
+    >
+      <a class="page-link" (click)="goToUrl(i + 1)">{{ i + 1 }} </a>
+    </li>
+  </ul>
+</nav>

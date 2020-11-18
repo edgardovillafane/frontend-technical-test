@@ -1,0 +1,39 @@
+<app-navbar [list]="'starships'"></app-navbar>
+<div *ngIf="starships; else elseBlock">
+  <h3 class="p-3 text-center mb-0">Starships List</h3>
+  <p class="pt-0 text-center">Click on Starship Name for details</p>
+  <div class="container">
+    <table class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>Starship</th>
+          <th>Related Pilots</th>
+          <th>Films where Ship Appears</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let starship of starships">
+          <td>
+            <a class="link" (click)="openModal(getStarshipNumber(starship.url))"
+              >{{ starship.name }}
+            </a>
+          </td>
+          <td [innerHTML]="getRelatedPilotsNames(starship.pilots)"></td>
+          <td [innerHTML]="getRelatedFilmsNames(starship.films)"></td>
+        </tr>
+      </tbody>
+    </table>
+    <app-paginator
+      [qtyPages]="qtyPagesStarships"
+      [list]="'starships/'"
+      [currentPage]="numPage"
+    ></app-paginator>
+  </div>
+</div>
+<ng-template #elseBlock
+  ><div class="text-center mt-5">
+    <div class="spinner-border" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  </ng-template>

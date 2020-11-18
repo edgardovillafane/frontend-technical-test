@@ -8,6 +8,8 @@
 # Consultas técnicas
 
 0. Cuál  es tu película favorita?
+Star Wars (jajajajajaja)
+
 1. Como mejorarías la siguiente sintaxis ().
     
 ```javascript 
@@ -20,6 +22,15 @@
         return 'success';
       }
     } else {
+      return 'error';
+    }
+```
+
+```javascript
+    try {
+      const responseApi = await this.apiService.get();
+      return (responseApi.data && responseApi.data.name)?responseApi.data.name:'success'
+    }catch (error) {
       return 'error';
     }
 ```
@@ -38,7 +49,28 @@
        return 'chewee';
      }
 ```
+
+```javascript
+
+switch(value) {
+  case 'Vader':
+    return 'vader';
+    break;
+  case 'Luke':
+    return 'luke';
+    break;
+  case 'Yoda':
+    return 'yoda';
+    break;
+  case 'Kylo':
+    return 'kylo';
+    break;
+  default:
+    return 'chewee';
+}
+```
 3. Que prefieres: mar | montaña | crucero | resort
+Prefiero el mar
 
 # Prueba técnica
 En este proyecto base, debes realizar un fork sobre él, para que al finalizar lances una pull-request para la revisión de la prueba.
